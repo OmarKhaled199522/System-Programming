@@ -1,0 +1,8 @@
+PROG1    START   0000
+P        LDA     BETA
+         DIV     GAMMA
+         RMO     A,X
+         J       *
+BETA     WORD    10
+GAMMA    WORD    5
+         END     P

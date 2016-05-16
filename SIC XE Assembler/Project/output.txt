@@ -1,0 +1,71 @@
+Line	Address	Label		Mnemonic	Operand				Comment
+
+1	0000	COPY		START		0000				
+2	0000	FIRST		STL		RETADR				
+3	3			LDB		#LENGTH				
+4	6			BASE		LENGTH				
+5	6	CLOOP		+JSUB		RDREC				
+6	A			LDA		LENGTH				
+7	D			COMP		#0				
+8	10			JEQ		ENDFIL				
+9	13			+JSUB		WRREC				
+10	17			J		CLOOP				
+11	1A	ENDFIL		LDA		EOF				
+12	1D			STA		BUFFER				
+13	20			LDA		#3				
+14	23			STA		LENGTH				
+15	26			+JSUB		WRREC				
+16	2A			J		@RETADR				
+17	2D	EOF		BYTE		C'HHK'				
+18	30	RETADR		RESW		1				
+19	33	LENGTH		RESW		1				
+20	36	BUFFER		RESB		3185				
+21	CA7	RDREC		CLEAR		X				
+22	CA9			CLEAR		A				
+23	CAB			CLEAR		S				
+24	CAD			+LDT		#999				
+25	CB1	RLOOP		TD		INPUT				
+26	CB4			JEQ		RLOOP				
+27	CB7			TD		INPUT				
+28	CBA			COMPR		A,S				
+29	CBC			JEQ		EXIT				
+30	CBF			STCH		BUFFER,X				
+31	CC2			TIXR		T				
+32	CC4			JLT		RLOOP				
+33	CC7	EXIT		STX		LENGTH				
+34	CCA			RSUB						
+35	CCD	INPUT		BYTE		X'F101'				
+36	CCF	WRREC		CLEAR		X				
+37	CD1			LDT		LENGTH				
+38	CD4	WLOOP		TD		OUTPUT				
+39	CD7			JEQ		WLOOP				
+40	CDA			LDCH		BUFFER,X				
+41	CDD			WD		OUTPUT				
+42	CE0			TIXR		T				
+43	CE2			JLT		WLOOP				
+44	CE5			RSUB						
+45	CE8	OUTPUT		BYTE		X'EE5'				
+46	CEA			END						
+
+
+		****************************************
+
+
+			S Y M B O L     T A B L E
+
+			Label		Address
+
+			BUFFER		36
+			CLOOP		6
+			ENDFIL		1A
+			EOF		2D
+			EXIT		CC7
+			FIRST		0000
+			INPUT		CCD
+			LENGTH		33
+			OUTPUT		CE8
+			RDREC		CA7
+			RETADR		30
+			RLOOP		CB1
+			WLOOP		CD4
+			WRREC		CCF

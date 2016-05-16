@@ -1,0 +1,45 @@
+>>  Source Program statements with value of LC indicated
+
+000000 PROG1    START   0000                                             
+000000 P        LDA     BETA                                             
+000003          DIV     GAMMA                                            
+000006          RMO     A,X                                              
+000008          J       *                                                
+00000B BETA     WORD    10                                               
+00000E GAMMA    WORD    5                                                
+000011          END     P                                                
+
+>>    e n d    o f   p a s s   1 
+
+>>   *****************************************************
+>>    s y m b o l     t a b l e   (values in decimal)
+
+        name         value     Absol/Reloc
+        ----------------------------------
+        p               0     Relocatable
+        beta           11     Relocatable
+        gamma          14     Relocatable
+
+>>   *****************************************************
+>>   S t a r t   o f    P a s s   I I 
+
+>>   A s s e m b l e d    p r o g r a m     l i s t i n g
+
+ LC    Code         Source Statement
+
+000000        prog1    start 0000              
+
+                             reloc   n=1 i=1 x=0   b=0 p=0 e=0
+000000 03000B p        lda   BETA              
+
+                             reloc   n=1 i=1 x=0   b=0 p=0 e=0
+000003 27000E          div   GAMMA             
+000006 AC01            rmo   A,X               
+
+                             reloc   n=1 i=1 x=0   b=0 p=0 e=0
+000008 3F0008          j     *                 
+00000B 00000A beta     word  10                
+00000E 000005 gamma    word  5                 
+000011                 end   P                 
+
+>>    s u c c e s s f u l    a s s e m b l y

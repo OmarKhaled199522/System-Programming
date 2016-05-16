@@ -1,0 +1,1434 @@
+# depslib dependency file v1.0
+1461666864 source:d:\programming applications\projects\codeblocks\pass1\main.cpp
+	<iostream>
+	<OpTable.h>
+
+1462027118 >
+
+1461666794 d:\programming applications\projects\codeblocks\pass1\include\optable.h
+	<iostream>
+	<map>
+	<string>
+
+1462814228 
+
+1461668510 source:d:\programming applications\projects\codeblocks\pass1\src\optable.cpp
+	<iostream>
+	<fstream>
+	<map>
+	<string>
+	"OpTable.h"
+
+1462062491 "
+
+1461673156 source:d:\programming applications\projects\codeblocks\pass1\src\symtable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1462059416 h"
+
+1461673123 d:\programming applications\projects\codeblocks\pass1\include\symtable.h
+	<iostream>
+	<map>
+	<string>
+
+1461666866 source:/home/dod/Desktop/Pass1/main.cpp
+	<iostream>
+	<OpTable.h>
+
+1461666796 /home/dod/Desktop/Pass1/include/OpTable.h
+	<iostream>
+	<map>
+	<string>
+
+1461668512 source:/home/dod/Desktop/Pass1/src/OpTable.cpp
+	<iostream>
+	<fstream>
+	<map>
+	<string>
+	"OpTable.h"
+
+1461673158 source:/home/dod/Desktop/Pass1/src/SymTable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1461673124 /home/dod/Desktop/Pass1/include/SymTable.h
+	<iostream>
+	<map>
+	<string>
+
+1461877689 source:/home/dod/Desktop/Pass1/src/Parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+
+1461674246 /home/dod/Desktop/Pass1/include/Parser.h
+	<string>
+	<vector>
+	<iostream>
+
+1461885675 source:c:\куб\faculty\computer second year second term\act\pass1\pass1\main.cpp
+	<iostream>
+	<OpTable.h>
+	<Parser.h>
+
+1461673996 c:\куб\faculty\computer second year second term\act\pass1\pass1\include\optable.h
+	<iostream>
+	<map>
+	<string>
+
+1461675712 source:c:\куб\faculty\computer second year second term\act\pass1\pass1\src\optable.cpp
+	<iostream>
+	<fstream>
+	<map>
+	<string>
+	"OpTable.h"
+
+1461887816 source:c:\куб\faculty\computer second year second term\act\pass1\pass1\src\parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<tr1/regex>
+	<string.h>
+	<OpTable.h>
+
+1461885578 c:\куб\faculty\computer second year second term\act\pass1\pass1\include\parser.h
+	<string>
+	<vector>
+	<iostream>
+
+1461879090 source:c:\куб\faculty\computer second year second term\act\pass1\pass1\src\symtable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1461680324 c:\куб\faculty\computer second year second term\act\pass1\pass1\include\symtable.h
+	<iostream>
+	<map>
+	<string>
+
+1462026245 source:/home/dod/Desktop/Pass1/Pass1/main.cpp
+	<iostream>
+	<OpTable.h>
+	<Parser.h>
+	<Engine.h>
+	<iostream>
+	<OpTable.h>
+	<Parser.h>
+
+1462028077 /home/dod/Desktop/Pass1/Pass1/include/OpTable.h
+	<iostream>
+	<map>
+	<string>
+
+1461937085 /home/dod/Desktop/Pass1/Pass1/include/Parser.h
+	<string>
+	<vector>
+	<iostream>
+
+1462028132 source:/home/dod/Desktop/Pass1/Pass1/src/OpTable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"OpTable.h"
+
+1462028482 source:/home/dod/Desktop/Pass1/Pass1/src/SymTable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1462028487 /home/dod/Desktop/Pass1/Pass1/include/SymTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462027118 source:/home/dod/Desktop/Pass1/Pass1/src/Parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<OpTable.h>
+
+1462028716 /home/dod/Desktop/Pass1/Pass1/include/Engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+
+1462028964 source:/home/dod/Desktop/Pass1/Pass1/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<OpTable.h>
+	<SymTable.h>
+
+1462825637 h>
+
+1462026244 source:/home/hassan/Desktop/Pass1/Pass1/main.cpp
+	<iostream>
+	<OpTable.h>
+	<Parser.h>
+	<Engine.h>
+	<iostream>
+	<OpTable.h>
+	<Parser.h>
+
+1462028076 /home/hassan/Desktop/Pass1/Pass1/include/OpTable.h
+	<iostream>
+	<map>
+	<string>
+
+1461937084 /home/hassan/Desktop/Pass1/Pass1/include/Parser.h
+	<string>
+	<vector>
+	<iostream>
+
+1462028716 /home/hassan/Desktop/Pass1/Pass1/include/Engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+
+1462028132 source:/home/hassan/Desktop/Pass1/Pass1/src/OpTable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"OpTable.h"
+
+1462040172 source:/home/hassan/Desktop/Pass1/Pass1/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<OpTable.h>
+	<ByteTable.h>
+	<SymTable.h>
+
+1462028486 /home/hassan/Desktop/Pass1/Pass1/include/SymTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462036153 source:/home/hassan/Desktop/Pass1/Pass1/src/Parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+
+1462822908 .h>
+
+1462028482 source:/home/hassan/Desktop/Pass1/Pass1/src/SymTable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1462035866 source:/home/hassan/Desktop/Pass1/Pass1/src/ByteTable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+
+1462062408 .h"
+
+1462033533 /home/hassan/Desktop/Pass1/Pass1/include/ByteTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462062408 source:/home/dod/Downloads/Pass1/Pass1/src/ByteTable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+
+1462033533 /home/dod/Downloads/Pass1/Pass1/include/ByteTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462120455 source:/home/dod/Downloads/Pass1/Pass1/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+
+1462060168 /home/dod/Downloads/Pass1/Pass1/include/Engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<fstream>
+	<SymTable.h>
+
+1462060115 /home/dod/Downloads/Pass1/Pass1/include/Parser.h
+	<string>
+	<vector>
+	<iostream>
+
+1462028076 /home/dod/Downloads/Pass1/Pass1/include/OpTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462059422 /home/dod/Downloads/Pass1/Pass1/include/SymTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462062491 source:/home/dod/Downloads/Pass1/Pass1/src/OpTable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"OpTable.h"
+
+1462122373 source:/home/dod/Downloads/Pass1/Pass1/src/Parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+
+1462059416 source:/home/dod/Downloads/Pass1/Pass1/src/SymTable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1462120345 source:/home/dod/Downloads/Pass1/Pass1/main.cpp
+	<iostream>
+	<Engine.h>
+	<string>
+	<cstdlib>
+	<cstring>
+
+1462394220 source:/home/dod/Desktop/9_phase1/Pass1/Pass1/main.cpp
+	<iostream>
+	<Engine.h>
+	<string>
+	<cstdlib>
+	<cstring>
+	<iostream>
+	<Engine.h>
+	<string>
+	<cstdlib>
+	<cstring>
+
+1462394580 /home/dod/Desktop/9_phase1/Pass1/Pass1/include/Engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<fstream>
+	<SymTable.h>
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<fstream>
+	<SymTable.h>
+
+1462814228 /home/dod/Desktop/9_phase1/Pass1/Pass1/include/Parser.h
+	<string>
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	<iostream>
+
+1462059422 /home/dod/Desktop/9_phase1/Pass1/Pass1/include/SymTable.h
+	<iostream>
+	<map>
+	<string>
+	<iostream>
+	<map>
+	<string>
+
+1462062408 source:/home/dod/Desktop/9_phase1/Pass1/Pass1/src/ByteTable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+
+1462033533 /home/dod/Desktop/9_phase1/Pass1/Pass1/include/ByteTable.h
+	<iostream>
+	<map>
+	<string>
+	<iostream>
+	<map>
+	<string>
+
+1462822869 source:/home/dod/Desktop/9_phase1/Pass1/Pass1/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+
+1462062491 source:/home/dod/Desktop/9_phase1/Pass1/Pass1/src/OpTable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"OpTable.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"OpTable.h"
+
+1462028076 /home/dod/Desktop/9_phase1/Pass1/Pass1/include/OpTable.h
+	<iostream>
+	<map>
+	<string>
+	<iostream>
+	<map>
+	<string>
+
+1462822908 source:/home/dod/Desktop/9_phase1/Pass1/Pass1/src/Parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+
+1462059416 source:/home/dod/Desktop/9_phase1/Pass1/Pass1/src/SymTable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1462394220 source:c:\users\shady\downloads\9_phase1\pass1\pass1\main.cpp
+	<iostream>
+	<Engine.h>
+	<string>
+	<cstdlib>
+	<cstring>
+
+1462394580 c:\users\shady\downloads\9_phase1\pass1\pass1\include\engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<fstream>
+	<SymTable.h>
+
+1462394721 c:\users\shady\downloads\9_phase1\pass1\pass1\include\parser.h
+	<string>
+	<vector>
+	<iostream>
+
+1462059422 c:\users\shady\downloads\9_phase1\pass1\pass1\include\symtable.h
+	<iostream>
+	<map>
+	<string>
+
+1462062408 source:c:\users\shady\downloads\9_phase1\pass1\pass1\src\bytetable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+
+1462033533 c:\users\shady\downloads\9_phase1\pass1\pass1\include\bytetable.h
+	<iostream>
+	<map>
+	<string>
+
+1462394665 source:c:\users\shady\downloads\9_phase1\pass1\pass1\src\engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+
+1462062491 source:c:\users\shady\downloads\9_phase1\pass1\pass1\src\optable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"OpTable.h"
+
+1462028076 c:\users\shady\downloads\9_phase1\pass1\pass1\include\optable.h
+	<iostream>
+	<map>
+	<string>
+
+1462059416 source:c:\users\shady\downloads\9_phase1\pass1\pass1\src\symtable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1462394702 source:c:\users\shady\downloads\9_phase1\pass1\pass1\src\parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+
+1462394220 source:/home/dod/Downloads/9_phase1/Pass1/Pass1/main.cpp
+	<iostream>
+	<Engine.h>
+	<string>
+	<cstdlib>
+	<cstring>
+
+1462394580 /home/dod/Downloads/9_phase1/Pass1/Pass1/include/Engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<fstream>
+	<SymTable.h>
+
+1462394721 /home/dod/Downloads/9_phase1/Pass1/Pass1/include/Parser.h
+	<string>
+	<vector>
+	<iostream>
+
+1462059422 /home/dod/Downloads/9_phase1/Pass1/Pass1/include/SymTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462062408 source:/home/dod/Downloads/9_phase1/Pass1/Pass1/src/ByteTable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+
+1462033533 /home/dod/Downloads/9_phase1/Pass1/Pass1/include/ByteTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462062491 source:/home/dod/Downloads/9_phase1/Pass1/Pass1/src/OpTable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"OpTable.h"
+
+1462028076 /home/dod/Downloads/9_phase1/Pass1/Pass1/include/OpTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462059416 source:/home/dod/Downloads/9_phase1/Pass1/Pass1/src/SymTable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1462396085 source:/home/dod/Downloads/9_phase1/Pass1/Pass1/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+
+1462395750 source:/home/dod/Downloads/9_phase1/Pass1/Pass1/src/Parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+
+1462824107 source:c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\main.cpp
+	<iostream>
+	<Engine.h>
+	<string>
+	<cstdlib>
+	<cstring>
+	<GenerateObjectCode.h>
+
+1462824107 bjectCode.h>
+
+1462825286 c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\include\engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<fstream>
+	<SymTable.h>
+
+1462814228 c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\include\parser.h
+	<string>
+	<vector>
+	<iostream>
+
+1462059422 c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\include\symtable.h
+	<iostream>
+	<map>
+	<string>
+
+1462062408 source:c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\src\bytetable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+
+1462827458 c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\include\bytetable.h
+	<iostream>
+	<map>
+	<string>
+
+1462825637 source:c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\src\engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+
+1462823871 source:c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\src\generateobjectcode.cpp
+	"GenerateObjectCode.h"
+
+1462823871 bjectCode.h"
+
+1462827045 c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\include\generateobjectcode.h
+	<string>
+	<bits/stdc++.h>
+
+1462827045 ++.h>
+
+1462062491 source:c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\src\optable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"OpTable.h"
+
+1462028076 c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\include\optable.h
+	<iostream>
+	<map>
+	<string>
+
+1462822908 source:c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\src\parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+
+1462059416 source:c:\new folder\new folder (4)\9_phase1 (2)\9_phase1\pass1\pass1\src\symtable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1462824107 source:/home/dod/Desktop/m/9_phase1 (2)/9_phase1/Pass1/Pass1/main.cpp
+	<iostream>
+	<Engine.h>
+	<string>
+	<cstdlib>
+	<cstring>
+	<GenerateObjectCode.h>
+
+1462825286 /home/dod/Desktop/m/9_phase1 (2)/9_phase1/Pass1/Pass1/include/Engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<fstream>
+	<SymTable.h>
+
+1462814228 /home/dod/Desktop/m/9_phase1 (2)/9_phase1/Pass1/Pass1/include/Parser.h
+	<string>
+	<vector>
+	<iostream>
+
+1462059422 /home/dod/Desktop/m/9_phase1 (2)/9_phase1/Pass1/Pass1/include/SymTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462831417 /home/dod/Desktop/m/9_phase1 (2)/9_phase1/Pass1/Pass1/include/GenerateObjectCode.h
+	<string>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	<OpTab.h>
+	<bits/stdc++.h>
+
+1462062408 source:/home/dod/Desktop/m/9_phase1 (2)/9_phase1/Pass1/Pass1/src/ByteTable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+
+1462827458 /home/dod/Desktop/m/9_phase1 (2)/9_phase1/Pass1/Pass1/include/ByteTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462825637 source:/home/dod/Desktop/m/9_phase1 (2)/9_phase1/Pass1/Pass1/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+
+1462827512 /home/dod/Desktop/m/9_phase1 (2)/9_phase1/Pass1/Pass1/include/OpTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462831344 /home/dod/Desktop/m/9_phase1 (2)/9_phase1/Pass1/Pass1/include/OpTab.h
+	<iostream>
+	<map>
+	<string>
+
+1462824107 source:/home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/main.cpp
+	<iostream>
+	<Engine.h>
+	<string>
+	<cstdlib>
+	<cstring>
+	<GenerateObjectCode.h>
+
+1462825286 /home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/include/Engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<fstream>
+	<SymTable.h>
+
+1462814228 /home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/include/Parser.h
+	<string>
+	<vector>
+	<iostream>
+
+1462059422 /home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/include/SymTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462832911 /home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/include/GenerateObjectCode.h
+	<string>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	<OpTab.h>
+	<bits/stdc++.h>
+
+1462827458 /home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/include/ByteTable.h
+	<iostream>
+	<map>
+	<string>
+
+1462831344 /home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/include/OpTab.h
+	<iostream>
+	<map>
+	<string>
+
+1462062408 source:/home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/src/ByteTable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+
+1462825637 source:/home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/src/Engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+
+1462832981 source:/home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/src/GenerateObjectCode.cpp
+	"GenerateObjectCode.h"
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	<OpTab.h>
+	<bits/stdc++.h>
+
+1462831398 source:/home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/src/OpTab.cpp
+	"OpTab.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+
+1462822908 source:/home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/src/Parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+
+1462059416 source:/home/dod/Desktop/m/9_phase2/9_phase1/Pass1/Pass1/src/SymTable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1462839497 source:c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\main.cpp
+	<iostream>
+	<Engine.h>
+	<string>
+	<cstdlib>
+	<cstring>
+	<GenerateObjectCode.h>
+
+1462825286 c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\include\engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<fstream>
+	<SymTable.h>
+
+1462814228 c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\include\parser.h
+	<string>
+	<vector>
+	<iostream>
+
+1462059422 c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\include\symtable.h
+	<iostream>
+	<map>
+	<string>
+
+1462839561 c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\include\generateobjectcode.h
+	<string>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	<OpTab.h>
+	<bits/stdc++.h>
+
+1462827458 c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\include\bytetable.h
+	<iostream>
+	<map>
+	<string>
+
+1462831344 c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\include\optab.h
+	<iostream>
+	<map>
+	<string>
+
+1462062408 source:c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\src\bytetable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+
+1462825637 source:c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\src\engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+
+1462844074 source:c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\src\generateobjectcode.cpp
+	"GenerateObjectCode.h"
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	<OpTab.h>
+	<bits/stdc++.h>
+
+1462831398 source:c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\src\optab.cpp
+	"OpTab.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+
+1462822908 source:c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\src\parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+
+1462838848 source:c:\users\hassan khalil\desktop\9_phase2\9_phase1\pass1\pass1\src\symtable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1462974767 source:c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\src\bytetable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+
+1462827458 c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\include\bytetable.h
+	<iostream>
+	<map>
+	<string>
+
+1463022971 source:c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\src\engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	<LiteralTable.h>
+	<muTable.h>
+	<EquSolver.h>
+
+1463022976 c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\include\engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<fstream>
+	<SymTable.h>
+	<LiteralTable.h>
+	<muTable.h>
+	<EquSolver.h>
+
+1463012790 c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\include\parser.h
+	<string>
+	<vector>
+	<iostream>
+	<LiteralTable.h>
+
+1462983687 c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\include\symtable.h
+	<iostream>
+	<map>
+	<string>
+
+1463017309 source:c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\src\generateobjectcode.cpp
+	"GenerateObjectCode.h"
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	<OpTab.h>
+	<LiteralTable.h>
+	<bits/stdc++.h>
+	<vector>
+
+1463023301 c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\include\generateobjectcode.h
+	<string>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	<OpTab.h>
+	<bits/stdc++.h>
+	<LiteralTable.h>
+	<vector>
+	<muTable.h>
+	<EquSolver.h>
+
+1462831344 c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\include\optab.h
+	<iostream>
+	<map>
+	<string>
+
+1462983283 source:c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\src\optab.cpp
+	"OpTab.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+
+1463012808 source:c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\src\parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<LiteralTable.h>
+	<map>
+	<utility>
+
+1462983671 source:c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\src\symtable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+
+1463022988 source:c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\main.cpp
+	<iostream>
+	<Engine.h>
+	<string>
+	<cstdlib>
+	<cstring>
+	<GenerateObjectCode.h>
+	<list>
+
+1463012838 c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\include\literaltable.h
+	<iostream>
+	<utility>
+	<string>
+	<string.h>
+	<Parser.h>
+	<vector>
+
+1463016035 source:c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\src\literaltable.cpp
+	<iostream>
+	<utility>
+	<vector>
+	<string>
+	<string.h>
+	<Parser.h>
+	"LiteralTable.h"
+
+1463019698 c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\include\mutable.h
+	<iostream>
+	<map>
+	<string>
+
+1463019404 c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\include\equsolver.h
+	<iostream>
+	<stack>
+	<string>
+	<stdexcept>
+	<cctype>
+	<sstream>
+	<stack>
+	<ctype.h>
+	<stdlib.h>
+	<math.h>
+
+1463020590 source:c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\src\equsolver.cpp
+	"EquSolver.h"
+	<iostream>
+	<stack>
+	<string>
+	<stdexcept>
+	<cctype>
+	<sstream>
+	<stack>
+	<ctype.h>
+	<stdlib.h>
+	<math.h>
+
+1463019714 source:c:\users\shady\downloads\9_phase2\9_phase1\pass1\pass1\src\mutable.cpp
+	<iostream>
+	<map>
+	<string>
+	"muTable.h"
+
+1463024810 source:c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\main.cpp
+	<iostream>
+	<Engine.h>
+	<string>
+	<cstdlib>
+	<cstring>
+	<GenerateObjectCode.h>
+	<list>
+
+1463023889 c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\include\engine.h
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<fstream>
+	<SymTable.h>
+	<LiteralTable.h>
+	<muTable.h>
+	<EquSolver.h>
+
+1463012790 c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\include\parser.h
+	<string>
+	<vector>
+	<iostream>
+	<LiteralTable.h>
+
+1463012838 c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\include\literaltable.h
+	<iostream>
+	<utility>
+	<string>
+	<string.h>
+	<Parser.h>
+	<vector>
+
+1462983687 c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\include\symtable.h
+	<iostream>
+	<map>
+	<string>
+
+1463019698 c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\include\mutable.h
+	<iostream>
+	<map>
+	<string>
+
+1463019404 c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\include\equsolver.h
+	<iostream>
+	<stack>
+	<string>
+	<stdexcept>
+	<cctype>
+	<sstream>
+	<stack>
+	<ctype.h>
+	<stdlib.h>
+	<math.h>
+
+1463025199 c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\include\generateobjectcode.h
+	<string>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	<OpTab.h>
+	<bits/stdc++.h>
+	<LiteralTable.h>
+	<vector>
+	<muTable.h>
+	<EquSolver.h>
+
+1462827458 c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\include\bytetable.h
+	<iostream>
+	<map>
+	<string>
+
+1462831344 c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\include\optab.h
+	<iostream>
+	<map>
+	<string>
+
+1462974767 source:c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\src\bytetable.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+	"ByteTable.h"
+
+1463023937 source:c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\src\engine.cpp
+	"Engine.h"
+	<iostream>
+	<string>
+	<vector>
+	<map>
+	<math.h>
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	<LiteralTable.h>
+	<muTable.h>
+	<EquSolver.h>
+
+1463020590 source:c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\src\equsolver.cpp
+	"EquSolver.h"
+	<iostream>
+	<stack>
+	<string>
+	<stdexcept>
+	<cctype>
+	<sstream>
+	<stack>
+	<ctype.h>
+	<stdlib.h>
+	<math.h>
+
+1463028453 source:c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\src\generateobjectcode.cpp
+	"GenerateObjectCode.h"
+	<Parser.h>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<SymTable.h>
+	<OpTab.h>
+	<LiteralTable.h>
+	<bits/stdc++.h>
+	<vector>
+	<EquSolver.h>
+
+1463016035 source:c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\src\literaltable.cpp
+	<iostream>
+	<utility>
+	<vector>
+	<string>
+	<string.h>
+	<Parser.h>
+	"LiteralTable.h"
+
+1463019714 source:c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\src\mutable.cpp
+	<iostream>
+	<map>
+	<string>
+	"muTable.h"
+
+1462983283 source:c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\src\optab.cpp
+	"OpTab.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<map>
+
+1463012808 source:c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\src\parser.cpp
+	"Parser.h"
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<regex>
+	<string.h>
+	<ByteTable.h>
+	<LiteralTable.h>
+	<map>
+	<utility>
+
+1462983671 source:c:\users\hassan khalil\desktop\hey\9_phase2\9_phase1\pass1\pass1\src\symtable.cpp
+	<iostream>
+	<map>
+	<string>
+	"SymTable.h"
+

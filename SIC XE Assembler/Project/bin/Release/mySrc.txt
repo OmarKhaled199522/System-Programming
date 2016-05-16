@@ -1,0 +1,22 @@
+
+
+SEARCH   START   0000
+
+BGN      LDX     #0
+		           LDCH    TARGET		comment1
+	         RMO     A,S      comment2
+   LOOP     LDCH    	STRING,X
+           COMPR     A,S
+          JEQ  		   FOUND
+         TIX       LENGTH
+            JLT    		 LOOP
+           RMO        T,A
+        	.     comment2
+        	 J       *
+FOUND 	   LDA     #STRING
+	         ADDR    X,A
+	         J       *
+	STRING   BYTE    C'ABC DEFG'
+	  LENGTH   WORD    8
+TARGET   BYTE    C'D'
+END     BGN
