@@ -1,0 +1,22 @@
+a. Set ALPHA equal to the integer portion of BETA / GAMMA.
+
+b. Set ALPHA equal to 4 * BETA + 3 * GAMMA.
+
+c. Clear a 100-byte string to all blanks.
+
+d. SET elements of a 100-word array to 0.
+
+e. Read a string from device F3, calculate its length and store it in register A.
+
+f. Read a two-digit number from device F3, convert this string to a number and stores the number in register A.
+
+g. Write a program that searches for a certain byte in a string, if found, put the address of the byte in register A else, put 0xFFFFFF.
+
+h. Implement the bubble sort to sort characters in a string.
+
+i. Read a string from an input device and print it reversed to an output device.
+
+j. Read a string from an input device and print the string to an output device
+after converting it to UPPER case.
+(you must use at least two subroutines in this problem. One for converting a letter
+to an upper case. Another one for writing one character to an output device)

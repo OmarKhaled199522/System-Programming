@@ -1,0 +1,13 @@
+prog     START   0000
+MAIN     LDX     #0
+         LDT     #3
+         LDS     #300
+LOOP     RMO     X,A
+         DIV     #3
+         STA     ARR,X
+         ADDR    T,X
+         COMPR   X,S
+         JLT     LOOP
+ARR      RESW    100
+         J       *
+         END     

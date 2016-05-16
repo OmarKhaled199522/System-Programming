@@ -1,0 +1,71 @@
+LToU     START   0
+         LDX     #0
+         LDA     #0
+
+RDLOOP   TD      INPUT
+         JEQ     RDLOOP
+         RD      INPUT
+         STCH    BUFFER,X
+         COMP    #4
+         JEQ     CAL
+         TIX     #1
+         J       RDLOOP
+
+.
+
+CAL      RMO     X,A
+         SUB     #1
+         STA     LENGTH
+.
+
+         LDX     #0
+CONVERT  LDA     #BUFFER
+         ADDR    X,A
+         STA     POINTER
+         JSUB    TOUPPER
+         TIX     #LENGTH
+         JLT     CONVERT
+
+.
+         LDS     #1
+         LDA     #1
+         LDT     #0
+         LDX     LENGTH
+PRINT    LDA     #BUFFER
+         ADDR    X,A
+         LDCH    BUFFER,X         
+         JSUB    WRLOOP
+         COMPR   X,T
+         JEQ     DONE
+         SUBR    S,X
+         J       PRINT
+.
+DONE     J       *
+.
+
+WRLOOP   TD      OUTPUT
+         JEQ     WRLOOP
+         WD      OUTPUT
+         RSUB
+.
+.
+
+TOUPPER  LDCH    @POINTER
+         COMP    SMA
+         JLT     ENDTOUP
+         COMP    SMZ
+         JGT     ENDTOUP
+         SUB     DIF
+         STCH    @POINTER
+ENDTOUP  RSUB
+.
+POINTER  RESW    1
+SMA      WORD    97
+SMZ      WORD    122
+DIF      WORD    32
+BUFFER   RESB    1000
+INPUT    BYTE    X'F3'
+OUTPUT   BYTE    X'04'
+LENGTH   RESW    1
+WPOINTER RESW    1
+         END

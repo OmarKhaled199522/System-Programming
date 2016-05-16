@@ -1,0 +1,24 @@
+.Problem(3)
+.
+         START   0
+         LDX     #0
+         LDS     #0
+         LDT     LENGTH
+         LDA     #0
+         LDCH    CHR
+         RMO     A,S
+SEARCH   LDCH    BUFFER,X
+         COMPR   A,S
+         JEQ     FOUND
+         TIXR    T
+         JLT     SEARCH
+NOTFOUND RMO     B,A
+         J       *
+FOUND    LDA     #BUFFER
+         ADDR    X,A
+         J       *
+.
+BUFFER   BYTE    C'A! DEF'
+LENGTH   WORD    6
+CHR      BYTE    C'Z'
+         END

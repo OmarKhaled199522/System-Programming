@@ -1,0 +1,62 @@
+         START   1000
+         LDA     #0
+         LDX     #0
+         LDS     #0
+         LDA     INT
+         COMP    #0
+         JGT     CAL
+         COMP    #0
+         JEQ     STORE
+         LDCH    MINSIGN
+         JSUB    WLOOP
+         LDA     INT
+         MUL     NEG
+         J       CAL
+. 
+STORE    LDA     ZERO
+         JSUB    WLOOP
+         J       *
+.
+       
+CAL      COMP    #0
+         JEQ     PARSE
+         RMO     A,T
+         DIV     TEN
+         MUL     TEN
+         RMO     T,S
+         SUBR    A,T
+         RMO     T,A
+         RMO     S,T
+         ADD     ZERO
+         STCH    ARR,X
+         TIX     COUNTER
+         RMO     T,A
+         DIV     TEN
+         J       CAL
+.
+PARSE    RMO     X,A
+         SUB     #1
+         COMP    #0
+         JLT     DONE
+         RMO     A,X
+         LDCH    ARR,X
+         JSUB    WLOOP
+         
+         J       PARSE
+
+WLOOP    TD      OUTDEV         
+         JEQ     WLOOP
+         WD      OUTDEV
+         RSUB
+
+DONE     J       *
+
+OUTDEV   BYTE    X'05'
+ZERO     WORD    48
+ARR      RESB    1000
+INT      BYTE    X'7FFFFF'
+MINSIGN  BYTE    C'-'
+NEG      BYTE    X'FFFFFF'
+TEN      WORD    10
+COUNTER  WORD    3
+         END     

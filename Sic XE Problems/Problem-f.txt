@@ -1,0 +1,47 @@
+.Problem(2)
+.
+PROBb    START   0
+
+         LDX     #0
+
+         LDS     #3
+
+         LDT     #6
+
+RLOOP    TD      DEVF3
+
+         JEQ     RLOOP
+
+         LDA     #0
+
+         RD      DEVF3
+
+         SUB     ZERO
+
+         STA     ARRAY,X
+
+         ADDR    S,X
+
+         COMPR   X,T
+
+         JLT     RLOOP
+
+
+         LDA     ARRAY
+
+         MUL     #10
+
+         LDX     #3
+
+         ADD     ARRAY,X
+
+         J       *
+
+.
+DEVF3    BYTE    X'F3'
+
+ZERO     WORD    48
+
+ARRAY    RESW    2
+
+         END

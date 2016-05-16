@@ -1,0 +1,33 @@
+.Problem(1)
+.
+FIRST    START   0
+         LDS     #0
+
+         LDA     #0
+
+RDLOOP   TD      DEVF3
+
+         JEQ     RDLOOP
+
+         RD      DEVF3
+
+         COMP    #04
+
+         JEQ     FINISH
+
+         RMO     S,A
+
+         ADD     #1
+
+         RMO     A,S
+
+         J       RDLOOP
+
+FINISH   RMO     S,A
+
+         J       *
+.
+
+DEVF3    BYTE    X'F3'
+
+         END

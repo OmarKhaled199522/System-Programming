@@ -1,0 +1,13 @@
+prog     START   1000
+         LDA     BETA
+         LDS     #4  
+         MULR    S,A
+         LDX     GAMA
+         LDT     #3
+         MULR    X,T
+         ADDR    T,A
+         STA     ALPHA
+ALPHA    RESW    1
+BETA     WORD    4
+GAMA     WORD    6
+         END

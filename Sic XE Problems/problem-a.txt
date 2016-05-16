@@ -1,0 +1,12 @@
+Prog     START   1000  
+         LDA     BETA
+	 LDS     #4  
+         MULR    S,A
+         LDX     GAMA
+	 LDT     #3
+	 MULR    X,T
+	 SUBR    T,A
+         STA     ALPHA
+ALPHA    RESW    1
+BETA     WORD    25
+         END    

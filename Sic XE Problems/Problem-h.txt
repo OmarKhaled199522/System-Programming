@@ -1,0 +1,54 @@
+.Problem(4)
+.
+         START   0
+         LDA     #0
+         LDX     LEN
+.
+
+BUBBLE   STX     LAST
+LOOP1    LDA     LAST
+         SUB     #1
+         COMP    #0
+         JEQ     DONE
+         STA     LAST
+         LDX     #0
+.
+LOOP2    LDA     LAST
+         COMPR   X,A
+         JEQ     LOOP1
+         LDA     #ARRAY
+         ADDR    X,A
+         STA     POINTER1
+         ADD     #1
+         STA     POINTER2
+         TIX     #0
+         LDA     #0
+         LDCH    @POINTER1
+         RMO     A,S
+         LDCH    @POINTER2
+         RMO     A,T
+         COMPR   S,T
+         JLT     LOOP2
+         RMO     S,A
+         STCH    @POINTER2
+         RMO     T,A
+         STCH    @POINTER1
+         J       LOOP2
+.
+DONE     LDX     #0
+PRINT    TD      OUTDEV
+         JEQ     PRINT
+         LDCH    ARRAY,X
+         WD      OUTDEV
+         TIX     LEN
+         JLT     PRINT
+         JEQ     PRINT
+         J       *
+.
+OUTDEV   BYTE    X'04'
+ARRAY    BYTE    C'OMAR'
+LEN      WORD    4
+LAST     RESW    1
+POINTER1 RESW    1
+POINTER2 RESW    1
+         END
